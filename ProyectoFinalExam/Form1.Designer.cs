@@ -68,12 +68,14 @@
             this.productosToolStripMenuItem1.Name = "productosToolStripMenuItem1";
             this.productosToolStripMenuItem1.Size = new System.Drawing.Size(73, 20);
             this.productosToolStripMenuItem1.Text = "Productos";
+            this.productosToolStripMenuItem1.Click += new System.EventHandler(this.productosToolStripMenuItem1_Click);
             // 
             // suplidoresToolStripMenuItem1
             // 
             this.suplidoresToolStripMenuItem1.Name = "suplidoresToolStripMenuItem1";
             this.suplidoresToolStripMenuItem1.Size = new System.Drawing.Size(74, 20);
             this.suplidoresToolStripMenuItem1.Text = "Suplidores";
+            this.suplidoresToolStripMenuItem1.Click += new System.EventHandler(this.suplidoresToolStripMenuItem1_Click);
             // 
             // Form1
             // 

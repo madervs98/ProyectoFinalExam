@@ -31,5 +31,20 @@ namespace ProyectoFinalExam
             RegistroClientes.MdiParent = this;
             RegistroClientes.Show();
         }
+
+        private void productosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Productos RegistroProductos = new Productos();
+            RegistroProductos.MdiParent = this;
+            RegistroProductos.Show();
+        }
+
+        private void suplidoresToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Suplidores RegistroSuplidores = new Suplidores();
+            RegistroSuplidores.MdiParent = this;
+            RegistroSuplidores.Show();
+
+        }
     }
 }
