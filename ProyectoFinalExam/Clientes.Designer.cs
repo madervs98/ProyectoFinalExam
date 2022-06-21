@@ -30,36 +30,37 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.tb_nombre = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tb_NomCli = new System.Windows.Forms.TextBox();
+            this.tb_ApeCli = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_ConCli = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tb_CelCli = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.tb_Direccion = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tb_CorCli = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dt_FecNac = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.dt_FecIng = new System.Windows.Forms.DateTimePicker();
+            this.tb_OcuCli = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.tb_CedCli = new System.Windows.Forms.TextBox();
+            this.btn_guardar = new System.Windows.Forms.Button();
+            this.btn_actualizar = new System.Windows.Forms.Button();
+            this.btn_eliminar = new System.Windows.Forms.Button();
+            this.tb_buscador = new System.Windows.Forms.TextBox();
+            this.btn_buscar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cm_EstCiv = new System.Windows.Forms.ComboBox();
+            this.btn_limpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,19 +84,19 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre";
             // 
-            // tb_nombre
+            // tb_NomCli
             // 
-            this.tb_nombre.Location = new System.Drawing.Point(33, 131);
-            this.tb_nombre.Name = "tb_nombre";
-            this.tb_nombre.Size = new System.Drawing.Size(141, 20);
-            this.tb_nombre.TabIndex = 2;
+            this.tb_NomCli.Location = new System.Drawing.Point(33, 131);
+            this.tb_NomCli.Name = "tb_NomCli";
+            this.tb_NomCli.Size = new System.Drawing.Size(141, 20);
+            this.tb_NomCli.TabIndex = 2;
             // 
-            // textBox1
+            // tb_ApeCli
             // 
-            this.textBox1.Location = new System.Drawing.Point(200, 131);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 20);
-            this.textBox1.TabIndex = 4;
+            this.tb_ApeCli.Location = new System.Drawing.Point(200, 131);
+            this.tb_ApeCli.Name = "tb_ApeCli";
+            this.tb_ApeCli.Size = new System.Drawing.Size(141, 20);
+            this.tb_ApeCli.TabIndex = 4;
             // 
             // label3
             // 
@@ -107,12 +108,12 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Apellido";
             // 
-            // textBox2
+            // tb_ConCli
             // 
-            this.textBox2.Location = new System.Drawing.Point(521, 131);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(141, 20);
-            this.textBox2.TabIndex = 8;
+            this.tb_ConCli.Location = new System.Drawing.Point(521, 131);
+            this.tb_ConCli.Name = "tb_ConCli";
+            this.tb_ConCli.Size = new System.Drawing.Size(141, 20);
+            this.tb_ConCli.TabIndex = 8;
             // 
             // label4
             // 
@@ -124,12 +125,12 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Contacto Adicional";
             // 
-            // textBox3
+            // tb_CelCli
             // 
-            this.textBox3.Location = new System.Drawing.Point(354, 131);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(141, 20);
-            this.textBox3.TabIndex = 6;
+            this.tb_CelCli.Location = new System.Drawing.Point(354, 131);
+            this.tb_CelCli.Name = "tb_CelCli";
+            this.tb_CelCli.Size = new System.Drawing.Size(141, 20);
+            this.tb_CelCli.TabIndex = 6;
             // 
             // label5
             // 
@@ -141,13 +142,13 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "Celular";
             // 
-            // richTextBox1
+            // tb_Direccion
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(354, 181);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(308, 58);
-            this.richTextBox1.TabIndex = 9;
-            this.richTextBox1.Text = "";
+            this.tb_Direccion.Location = new System.Drawing.Point(354, 181);
+            this.tb_Direccion.Name = "tb_Direccion";
+            this.tb_Direccion.Size = new System.Drawing.Size(308, 58);
+            this.tb_Direccion.TabIndex = 9;
+            this.tb_Direccion.Text = "";
             // 
             // label6
             // 
@@ -159,12 +160,12 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Dirección\r\n";
             // 
-            // textBox4
+            // tb_CorCli
             // 
-            this.textBox4.Location = new System.Drawing.Point(354, 268);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(308, 20);
-            this.textBox4.TabIndex = 12;
+            this.tb_CorCli.Location = new System.Drawing.Point(354, 268);
+            this.tb_CorCli.Name = "tb_CorCli";
+            this.tb_CorCli.Size = new System.Drawing.Size(308, 20);
+            this.tb_CorCli.TabIndex = 12;
             // 
             // label7
             // 
@@ -176,12 +177,12 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "Correo Electronico";
             // 
-            // dateTimePicker1
+            // dt_FecNac
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(33, 324);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 13;
+            this.dt_FecNac.Location = new System.Drawing.Point(33, 324);
+            this.dt_FecNac.Name = "dt_FecNac";
+            this.dt_FecNac.Size = new System.Drawing.Size(200, 20);
+            this.dt_FecNac.TabIndex = 13;
             // 
             // label8
             // 
@@ -203,19 +204,19 @@
             this.label9.TabIndex = 16;
             this.label9.Text = "Fecha de Ingreso";
             // 
-            // dateTimePicker2
+            // dt_FecIng
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(354, 324);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 15;
+            this.dt_FecIng.Location = new System.Drawing.Point(354, 324);
+            this.dt_FecIng.Name = "dt_FecIng";
+            this.dt_FecIng.Size = new System.Drawing.Size(200, 20);
+            this.dt_FecIng.TabIndex = 15;
             // 
-            // textBox5
+            // tb_OcuCli
             // 
-            this.textBox5.Location = new System.Drawing.Point(200, 201);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(141, 20);
-            this.textBox5.TabIndex = 20;
+            this.tb_OcuCli.Location = new System.Drawing.Point(200, 201);
+            this.tb_OcuCli.Name = "tb_OcuCli";
+            this.tb_OcuCli.Size = new System.Drawing.Size(141, 20);
+            this.tb_OcuCli.TabIndex = 20;
             // 
             // label10
             // 
@@ -257,55 +258,55 @@
             this.label12.TabIndex = 23;
             this.label12.Text = "Cédula";
             // 
-            // textBox7
+            // tb_CedCli
             // 
-            this.textBox7.Location = new System.Drawing.Point(33, 201);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(141, 20);
-            this.textBox7.TabIndex = 24;
+            this.tb_CedCli.Location = new System.Drawing.Point(33, 201);
+            this.tb_CedCli.Name = "tb_CedCli";
+            this.tb_CedCli.Size = new System.Drawing.Size(141, 20);
+            this.tb_CedCli.TabIndex = 24;
             // 
-            // button1
+            // btn_guardar
             // 
-            this.button1.Location = new System.Drawing.Point(465, 529);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_guardar.Location = new System.Drawing.Point(465, 529);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(75, 23);
+            this.btn_guardar.TabIndex = 25;
+            this.btn_guardar.Text = "Guardar";
+            this.btn_guardar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_actualizar
             // 
-            this.button2.Location = new System.Drawing.Point(546, 529);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "Actualizar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Location = new System.Drawing.Point(546, 529);
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.Size = new System.Drawing.Size(75, 23);
+            this.btn_actualizar.TabIndex = 26;
+            this.btn_actualizar.Text = "Actualizar";
+            this.btn_actualizar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btn_eliminar
             // 
-            this.button3.Location = new System.Drawing.Point(627, 529);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 27;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Location = new System.Drawing.Point(627, 529);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(75, 23);
+            this.btn_eliminar.TabIndex = 27;
+            this.btn_eliminar.Text = "Eliminar";
+            this.btn_eliminar.UseVisualStyleBackColor = true;
             // 
-            // textBox9
+            // tb_buscador
             // 
-            this.textBox9.Location = new System.Drawing.Point(30, 65);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(465, 20);
-            this.textBox9.TabIndex = 28;
+            this.tb_buscador.Location = new System.Drawing.Point(30, 65);
+            this.tb_buscador.Name = "tb_buscador";
+            this.tb_buscador.Size = new System.Drawing.Size(465, 20);
+            this.tb_buscador.TabIndex = 28;
             // 
-            // button4
+            // btn_buscar
             // 
-            this.button4.Location = new System.Drawing.Point(501, 63);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 29;
-            this.button4.Text = "Buscar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_buscar.Location = new System.Drawing.Point(501, 63);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(75, 23);
+            this.btn_buscar.TabIndex = 29;
+            this.btn_buscar.Text = "Buscar";
+            this.btn_buscar.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -337,54 +338,64 @@
             this.checkBox2.Text = "No";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cm_EstCiv
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cm_EstCiv.FormattingEnabled = true;
+            this.cm_EstCiv.Items.AddRange(new object[] {
             "",
             "Soltero/a",
             "Casado/a",
             "Unión Libre"});
-            this.comboBox1.Location = new System.Drawing.Point(33, 271);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(138, 21);
-            this.comboBox1.TabIndex = 33;
+            this.cm_EstCiv.Location = new System.Drawing.Point(33, 271);
+            this.cm_EstCiv.Name = "cm_EstCiv";
+            this.cm_EstCiv.Size = new System.Drawing.Size(138, 21);
+            this.cm_EstCiv.TabIndex = 33;
+            // 
+            // btn_limpiar
+            // 
+            this.btn_limpiar.Location = new System.Drawing.Point(582, 63);
+            this.btn_limpiar.Name = "btn_limpiar";
+            this.btn_limpiar.Size = new System.Drawing.Size(75, 23);
+            this.btn_limpiar.TabIndex = 53;
+            this.btn_limpiar.Text = "Limpiar";
+            this.btn_limpiar.UseVisualStyleBackColor = true;
             // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(731, 564);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.btn_limpiar);
+            this.Controls.Add(this.cm_EstCiv);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.btn_buscar);
+            this.Controls.Add(this.tb_buscador);
+            this.Controls.Add(this.btn_eliminar);
+            this.Controls.Add(this.btn_actualizar);
+            this.Controls.Add(this.btn_guardar);
+            this.Controls.Add(this.tb_CedCli);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.tb_OcuCli);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dt_FecIng);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.dt_FecNac);
+            this.Controls.Add(this.tb_CorCli);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tb_Direccion);
+            this.Controls.Add(this.tb_ConCli);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tb_CelCli);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_ApeCli);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.tb_nombre);
+            this.Controls.Add(this.tb_NomCli);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Clientes";
@@ -399,35 +410,36 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tb_nombre;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tb_NomCli;
+        private System.Windows.Forms.TextBox tb_ApeCli;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb_ConCli;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tb_CelCli;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox tb_Direccion;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tb_CorCli;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dt_FecNac;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.DateTimePicker dt_FecIng;
+        private System.Windows.Forms.TextBox tb_OcuCli;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox tb_CedCli;
+        private System.Windows.Forms.Button btn_guardar;
+        private System.Windows.Forms.Button btn_actualizar;
+        private System.Windows.Forms.Button btn_eliminar;
+        private System.Windows.Forms.TextBox tb_buscador;
+        private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cm_EstCiv;
+        private System.Windows.Forms.Button btn_limpiar;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace ProyectoFinalExam
 {
-    partial class Form1
+    partial class Registros
     {
         /// <summary>
         /// Variable del diseñador necesaria.

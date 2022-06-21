@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoFinalExam
 {
-    public partial class Form1 : Form
+    public partial class Registros : Form
     {
-        public Form1()
+        public Registros()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;

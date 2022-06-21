@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_TipPago = new System.Windows.Forms.ComboBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_buscar = new System.Windows.Forms.Button();
+            this.tb_buscador = new System.Windows.Forms.TextBox();
+            this.btn_eliminar = new System.Windows.Forms.Button();
+            this.btn_actualizar = new System.Windows.Forms.Button();
+            this.btn_guardar = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dt_FecSup = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_factura = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tb_CedSup = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tb_NomSup = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.tb_nombre = new System.Windows.Forms.TextBox();
+            this.tb_CodSup = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btn_limpiar = new System.Windows.Forms.Button();
+            this.btn_aplicar = new System.Windows.Forms.Button();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -60,17 +60,17 @@
             this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // cb_TipPago
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cb_TipPago.FormattingEnabled = true;
+            this.cb_TipPago.Items.AddRange(new object[] {
             "Efectivo",
             "Tarjeta de Crédito",
             "Tarjeta de Débito"});
-            this.comboBox1.Location = new System.Drawing.Point(63, 179);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(138, 21);
-            this.comboBox1.TabIndex = 65;
+            this.cb_TipPago.Location = new System.Drawing.Point(63, 179);
+            this.cb_TipPago.Name = "cb_TipPago";
+            this.cb_TipPago.Size = new System.Drawing.Size(138, 21);
+            this.cb_TipPago.TabIndex = 65;
             // 
             // checkBox2
             // 
@@ -92,48 +92,48 @@
             this.checkBox1.Text = "Sí";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btn_buscar
             // 
-            this.button4.Location = new System.Drawing.Point(385, 39);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 61;
-            this.button4.Text = "Buscar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_buscar.Location = new System.Drawing.Point(385, 39);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(75, 23);
+            this.btn_buscar.TabIndex = 61;
+            this.btn_buscar.Text = "Buscar";
+            this.btn_buscar.UseVisualStyleBackColor = true;
             // 
-            // textBox9
+            // tb_buscador
             // 
-            this.textBox9.Location = new System.Drawing.Point(63, 41);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(311, 20);
-            this.textBox9.TabIndex = 60;
+            this.tb_buscador.Location = new System.Drawing.Point(63, 41);
+            this.tb_buscador.Name = "tb_buscador";
+            this.tb_buscador.Size = new System.Drawing.Size(311, 20);
+            this.tb_buscador.TabIndex = 60;
             // 
-            // button3
+            // btn_eliminar
             // 
-            this.button3.Location = new System.Drawing.Point(367, 282);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 59;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Location = new System.Drawing.Point(367, 282);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(75, 23);
+            this.btn_eliminar.TabIndex = 59;
+            this.btn_eliminar.Text = "Eliminar";
+            this.btn_eliminar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_actualizar
             // 
-            this.button2.Location = new System.Drawing.Point(286, 282);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 58;
-            this.button2.Text = "Actualizar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Location = new System.Drawing.Point(286, 282);
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.Size = new System.Drawing.Size(75, 23);
+            this.btn_actualizar.TabIndex = 58;
+            this.btn_actualizar.Text = "Actualizar";
+            this.btn_actualizar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_guardar
             // 
-            this.button1.Location = new System.Drawing.Point(205, 282);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 57;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_guardar.Location = new System.Drawing.Point(205, 282);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(75, 23);
+            this.btn_guardar.TabIndex = 57;
+            this.btn_guardar.Text = "Guardar";
+            this.btn_guardar.UseVisualStyleBackColor = true;
             // 
             // label13
             // 
@@ -165,12 +165,12 @@
             this.label9.TabIndex = 50;
             this.label9.Text = "Fecha";
             // 
-            // dateTimePicker2
+            // dt_FecSup
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(470, 108);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 49;
+            this.dt_FecSup.Location = new System.Drawing.Point(470, 108);
+            this.dt_FecSup.Name = "dt_FecSup";
+            this.dt_FecSup.Size = new System.Drawing.Size(200, 20);
+            this.dt_FecSup.TabIndex = 49;
             // 
             // label7
             // 
@@ -182,13 +182,13 @@
             this.label7.TabIndex = 45;
             this.label7.Text = "ITBIS";
             // 
-            // textBox2
+            // tb_factura
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(547, 39);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(91, 20);
-            this.textBox2.TabIndex = 42;
+            this.tb_factura.Enabled = false;
+            this.tb_factura.Location = new System.Drawing.Point(547, 39);
+            this.tb_factura.Name = "tb_factura";
+            this.tb_factura.Size = new System.Drawing.Size(91, 20);
+            this.tb_factura.TabIndex = 42;
             // 
             // label4
             // 
@@ -200,12 +200,12 @@
             this.label4.TabIndex = 41;
             this.label4.Text = "Factura No.";
             // 
-            // textBox3
+            // tb_CedSup
             // 
-            this.textBox3.Location = new System.Drawing.Point(323, 108);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(141, 20);
-            this.textBox3.TabIndex = 40;
+            this.tb_CedSup.Location = new System.Drawing.Point(323, 108);
+            this.tb_CedSup.Name = "tb_CedSup";
+            this.tb_CedSup.Size = new System.Drawing.Size(141, 20);
+            this.tb_CedSup.TabIndex = 40;
             // 
             // label5
             // 
@@ -217,12 +217,12 @@
             this.label5.TabIndex = 39;
             this.label5.Text = "RNC / Cédula";
             // 
-            // textBox1
+            // tb_NomSup
             // 
-            this.textBox1.Location = new System.Drawing.Point(176, 108);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 20);
-            this.textBox1.TabIndex = 38;
+            this.tb_NomSup.Location = new System.Drawing.Point(176, 108);
+            this.tb_NomSup.Name = "tb_NomSup";
+            this.tb_NomSup.Size = new System.Drawing.Size(141, 20);
+            this.tb_NomSup.TabIndex = 38;
             // 
             // label3
             // 
@@ -234,13 +234,13 @@
             this.label3.TabIndex = 37;
             this.label3.Text = "Nombre";
             // 
-            // tb_nombre
+            // tb_CodSup
             // 
-            this.tb_nombre.Enabled = false;
-            this.tb_nombre.Location = new System.Drawing.Point(63, 108);
-            this.tb_nombre.Name = "tb_nombre";
-            this.tb_nombre.Size = new System.Drawing.Size(107, 20);
-            this.tb_nombre.TabIndex = 36;
+            this.tb_CodSup.Enabled = false;
+            this.tb_CodSup.Location = new System.Drawing.Point(63, 108);
+            this.tb_CodSup.Name = "tb_CodSup";
+            this.tb_CodSup.Size = new System.Drawing.Size(107, 20);
+            this.tb_CodSup.TabIndex = 36;
             // 
             // label2
             // 
@@ -262,23 +262,23 @@
             this.label1.TabIndex = 34;
             this.label1.Text = "FORMULARIO DE SUPLIDORES";
             // 
-            // button5
+            // btn_limpiar
             // 
-            this.button5.Location = new System.Drawing.Point(466, 39);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 66;
-            this.button5.Text = "Limpiar";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btn_limpiar.Location = new System.Drawing.Point(466, 39);
+            this.btn_limpiar.Name = "btn_limpiar";
+            this.btn_limpiar.Size = new System.Drawing.Size(75, 23);
+            this.btn_limpiar.TabIndex = 66;
+            this.btn_limpiar.Text = "Limpiar";
+            this.btn_limpiar.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btn_aplicar
             // 
-            this.button6.Location = new System.Drawing.Point(407, 177);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 67;
-            this.button6.Text = "Aplicar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn_aplicar.Location = new System.Drawing.Point(407, 177);
+            this.btn_aplicar.Name = "btn_aplicar";
+            this.btn_aplicar.Size = new System.Drawing.Size(75, 23);
+            this.btn_aplicar.TabIndex = 67;
+            this.btn_aplicar.Text = "Aplicar";
+            this.btn_aplicar.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
@@ -346,28 +346,28 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.btn_aplicar);
+            this.Controls.Add(this.btn_limpiar);
+            this.Controls.Add(this.cb_TipPago);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_buscar);
+            this.Controls.Add(this.tb_buscador);
+            this.Controls.Add(this.btn_eliminar);
+            this.Controls.Add(this.btn_actualizar);
+            this.Controls.Add(this.btn_guardar);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dt_FecSup);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tb_factura);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tb_CedSup);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_NomSup);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.tb_nombre);
+            this.Controls.Add(this.tb_CodSup);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Suplidores";
@@ -379,30 +379,30 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cb_TipPago;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_buscar;
+        private System.Windows.Forms.TextBox tb_buscador;
+        private System.Windows.Forms.Button btn_eliminar;
+        private System.Windows.Forms.Button btn_actualizar;
+        private System.Windows.Forms.Button btn_guardar;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dt_FecSup;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb_factura;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tb_CedSup;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tb_NomSup;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tb_nombre;
+        private System.Windows.Forms.TextBox tb_CodSup;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btn_limpiar;
+        private System.Windows.Forms.Button btn_aplicar;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.TextBox textBox4;

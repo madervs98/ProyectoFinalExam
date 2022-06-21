@@ -28,50 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.btn_buscar = new System.Windows.Forms.Button();
+            this.tb_buscador = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_Precio = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tb_CantPro = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.tb_nombre = new System.Windows.Forms.TextBox();
+            this.tb_CodPro = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tb_DescPro = new System.Windows.Forms.RichTextBox();
+            this.tb_CodCli = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tb_NomCli = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.dt_fecha = new System.Windows.Forms.DateTimePicker();
+            this.dgv_DetallesProductos = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button5 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.btn_eliminar = new System.Windows.Forms.Button();
+            this.tbn_actualizar = new System.Windows.Forms.Button();
+            this.btn_guardar = new System.Windows.Forms.Button();
+            this.btn_limpiar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DetallesProductos)).BeginInit();
             this.SuspendLayout();
             // 
-            // button4
+            // btn_buscar
             // 
-            this.button4.Location = new System.Drawing.Point(331, 56);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 32;
-            this.button4.Text = "Buscar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_buscar.Location = new System.Drawing.Point(331, 56);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(75, 23);
+            this.btn_buscar.TabIndex = 32;
+            this.btn_buscar.Text = "Buscar";
+            this.btn_buscar.UseVisualStyleBackColor = true;
             // 
-            // textBox9
+            // tb_buscador
             // 
-            this.textBox9.Location = new System.Drawing.Point(21, 58);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(300, 20);
-            this.textBox9.TabIndex = 31;
+            this.tb_buscador.Location = new System.Drawing.Point(21, 58);
+            this.tb_buscador.Name = "tb_buscador";
+            this.tb_buscador.Size = new System.Drawing.Size(300, 20);
+            this.tb_buscador.TabIndex = 31;
             // 
             // label1
             // 
@@ -83,12 +83,12 @@
             this.label1.TabIndex = 30;
             this.label1.Text = "REGISTRO DE PRODUCTOS";
             // 
-            // textBox2
+            // tb_Precio
             // 
-            this.textBox2.Location = new System.Drawing.Point(492, 217);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(141, 20);
-            this.textBox2.TabIndex = 40;
+            this.tb_Precio.Location = new System.Drawing.Point(492, 217);
+            this.tb_Precio.Name = "tb_Precio";
+            this.tb_Precio.Size = new System.Drawing.Size(141, 20);
+            this.tb_Precio.TabIndex = 40;
             // 
             // label4
             // 
@@ -100,12 +100,12 @@
             this.label4.TabIndex = 39;
             this.label4.Text = "Precio";
             // 
-            // textBox3
+            // tb_CantPro
             // 
-            this.textBox3.Location = new System.Drawing.Point(492, 169);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(141, 20);
-            this.textBox3.TabIndex = 38;
+            this.tb_CantPro.Location = new System.Drawing.Point(492, 169);
+            this.tb_CantPro.Name = "tb_CantPro";
+            this.tb_CantPro.Size = new System.Drawing.Size(141, 20);
+            this.tb_CantPro.TabIndex = 38;
             // 
             // label5
             // 
@@ -127,12 +127,12 @@
             this.label3.TabIndex = 35;
             this.label3.Text = "Descripción";
             // 
-            // tb_nombre
+            // tb_CodPro
             // 
-            this.tb_nombre.Location = new System.Drawing.Point(22, 179);
-            this.tb_nombre.Name = "tb_nombre";
-            this.tb_nombre.Size = new System.Drawing.Size(141, 20);
-            this.tb_nombre.TabIndex = 34;
+            this.tb_CodPro.Location = new System.Drawing.Point(22, 179);
+            this.tb_CodPro.Name = "tb_CodPro";
+            this.tb_CodPro.Size = new System.Drawing.Size(141, 20);
+            this.tb_CodPro.TabIndex = 34;
             // 
             // label2
             // 
@@ -144,20 +144,20 @@
             this.label2.TabIndex = 33;
             this.label2.Text = "Código de Producto";
             // 
-            // richTextBox1
+            // tb_DescPro
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(177, 179);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(308, 58);
-            this.richTextBox1.TabIndex = 41;
-            this.richTextBox1.Text = "";
+            this.tb_DescPro.Location = new System.Drawing.Point(177, 179);
+            this.tb_DescPro.Name = "tb_DescPro";
+            this.tb_DescPro.Size = new System.Drawing.Size(308, 58);
+            this.tb_DescPro.TabIndex = 41;
+            this.tb_DescPro.Text = "";
             // 
-            // textBox1
+            // tb_CodCli
             // 
-            this.textBox1.Location = new System.Drawing.Point(22, 113);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 20);
-            this.textBox1.TabIndex = 43;
+            this.tb_CodCli.Location = new System.Drawing.Point(22, 113);
+            this.tb_CodCli.Name = "tb_CodCli";
+            this.tb_CodCli.Size = new System.Drawing.Size(141, 20);
+            this.tb_CodCli.TabIndex = 43;
             // 
             // label6
             // 
@@ -169,12 +169,12 @@
             this.label6.TabIndex = 42;
             this.label6.Text = "Código de Cliente";
             // 
-            // textBox4
+            // tb_NomCli
             // 
-            this.textBox4.Location = new System.Drawing.Point(180, 113);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(141, 20);
-            this.textBox4.TabIndex = 45;
+            this.tb_NomCli.Location = new System.Drawing.Point(180, 113);
+            this.tb_NomCli.Name = "tb_NomCli";
+            this.tb_NomCli.Size = new System.Drawing.Size(141, 20);
+            this.tb_NomCli.TabIndex = 45;
             // 
             // label7
             // 
@@ -196,52 +196,25 @@
             this.label8.TabIndex = 47;
             this.label8.Text = "Fecha";
             // 
-            // dateTimePicker1
+            // dt_fecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(433, 110);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 46;
+            this.dt_fecha.Location = new System.Drawing.Point(433, 110);
+            this.dt_fecha.Name = "dt_fecha";
+            this.dt_fecha.Size = new System.Drawing.Size(200, 20);
+            this.dt_fecha.TabIndex = 46;
             // 
-            // dataGridView1
+            // dgv_DetallesProductos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgv_DetallesProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_DetallesProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
             this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(22, 252);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(611, 150);
-            this.dataGridView1.TabIndex = 48;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(639, 360);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 51;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(639, 322);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 50;
-            this.button2.Text = "Actualizar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(639, 282);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 49;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.dgv_DetallesProductos.Location = new System.Drawing.Point(22, 252);
+            this.dgv_DetallesProductos.Name = "dgv_DetallesProductos";
+            this.dgv_DetallesProductos.Size = new System.Drawing.Size(611, 150);
+            this.dgv_DetallesProductos.TabIndex = 48;
             // 
             // Column1
             // 
@@ -267,46 +240,73 @@
             this.Column4.Name = "Column4";
             this.Column4.Width = 153;
             // 
-            // button5
+            // btn_eliminar
             // 
-            this.button5.Location = new System.Drawing.Point(410, 56);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 52;
-            this.button5.Text = "Limpiar";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Location = new System.Drawing.Point(639, 360);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(75, 23);
+            this.btn_eliminar.TabIndex = 51;
+            this.btn_eliminar.Text = "Eliminar";
+            this.btn_eliminar.UseVisualStyleBackColor = true;
+            // 
+            // tbn_actualizar
+            // 
+            this.tbn_actualizar.Location = new System.Drawing.Point(639, 322);
+            this.tbn_actualizar.Name = "tbn_actualizar";
+            this.tbn_actualizar.Size = new System.Drawing.Size(75, 23);
+            this.tbn_actualizar.TabIndex = 50;
+            this.tbn_actualizar.Text = "Actualizar";
+            this.tbn_actualizar.UseVisualStyleBackColor = true;
+            // 
+            // btn_guardar
+            // 
+            this.btn_guardar.Location = new System.Drawing.Point(639, 282);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(75, 23);
+            this.btn_guardar.TabIndex = 49;
+            this.btn_guardar.Text = "Guardar";
+            this.btn_guardar.UseVisualStyleBackColor = true;
+            // 
+            // btn_limpiar
+            // 
+            this.btn_limpiar.Location = new System.Drawing.Point(410, 56);
+            this.btn_limpiar.Name = "btn_limpiar";
+            this.btn_limpiar.Size = new System.Drawing.Size(75, 23);
+            this.btn_limpiar.TabIndex = 52;
+            this.btn_limpiar.Text = "Limpiar";
+            this.btn_limpiar.UseVisualStyleBackColor = true;
             // 
             // Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(747, 453);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btn_limpiar);
+            this.Controls.Add(this.btn_eliminar);
+            this.Controls.Add(this.tbn_actualizar);
+            this.Controls.Add(this.btn_guardar);
+            this.Controls.Add(this.dgv_DetallesProductos);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.dt_fecha);
+            this.Controls.Add(this.tb_NomCli);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_CodCli);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tb_DescPro);
+            this.Controls.Add(this.tb_Precio);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tb_CantPro);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.tb_nombre);
+            this.Controls.Add(this.tb_CodPro);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.btn_buscar);
+            this.Controls.Add(this.tb_buscador);
             this.Controls.Add(this.label1);
             this.Name = "Productos";
             this.Text = "Productos";
             this.Load += new System.EventHandler(this.Productos_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DetallesProductos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -314,31 +314,31 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Button btn_buscar;
+        private System.Windows.Forms.TextBox tb_buscador;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb_Precio;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tb_CantPro;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tb_nombre;
+        private System.Windows.Forms.TextBox tb_CodPro;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.RichTextBox tb_DescPro;
+        private System.Windows.Forms.TextBox tb_CodCli;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tb_NomCli;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DateTimePicker dt_fecha;
+        private System.Windows.Forms.DataGridView dgv_DetallesProductos;
+        private System.Windows.Forms.Button btn_eliminar;
+        private System.Windows.Forms.Button tbn_actualizar;
+        private System.Windows.Forms.Button btn_guardar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_limpiar;
     }
 }

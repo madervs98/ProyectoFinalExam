@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_NomUser = new System.Windows.Forms.TextBox();
+            this.tb_ApeUser = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tb_CorUser = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tb_PassUser = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tb_PassUser1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.guardar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_guardar = new System.Windows.Forms.Button();
+            this.btn_eliminar = new System.Windows.Forms.Button();
+            this.btn_limpiar = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.AssUse = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.AssUse)).BeginInit();
@@ -58,19 +58,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre";
             // 
-            // textBox1
+            // tb_NomUser
             // 
-            this.textBox1.Location = new System.Drawing.Point(116, 130);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(175, 20);
-            this.textBox1.TabIndex = 1;
+            this.tb_NomUser.Location = new System.Drawing.Point(116, 130);
+            this.tb_NomUser.Name = "tb_NomUser";
+            this.tb_NomUser.Size = new System.Drawing.Size(175, 20);
+            this.tb_NomUser.TabIndex = 1;
             // 
-            // textBox2
+            // tb_ApeUser
             // 
-            this.textBox2.Location = new System.Drawing.Point(116, 175);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(175, 20);
-            this.textBox2.TabIndex = 3;
+            this.tb_ApeUser.Location = new System.Drawing.Point(116, 175);
+            this.tb_ApeUser.Name = "tb_ApeUser";
+            this.tb_ApeUser.Size = new System.Drawing.Size(175, 20);
+            this.tb_ApeUser.TabIndex = 3;
             // 
             // label2
             // 
@@ -82,12 +82,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Apellido";
             // 
-            // textBox3
+            // tb_CorUser
             // 
-            this.textBox3.Location = new System.Drawing.Point(116, 223);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(175, 20);
-            this.textBox3.TabIndex = 5;
+            this.tb_CorUser.Location = new System.Drawing.Point(116, 223);
+            this.tb_CorUser.Name = "tb_CorUser";
+            this.tb_CorUser.Size = new System.Drawing.Size(175, 20);
+            this.tb_CorUser.TabIndex = 5;
             // 
             // label3
             // 
@@ -99,12 +99,12 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Correo Electrónico";
             // 
-            // textBox4
+            // tb_PassUser
             // 
-            this.textBox4.Location = new System.Drawing.Point(116, 315);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(175, 20);
-            this.textBox4.TabIndex = 7;
+            this.tb_PassUser.Location = new System.Drawing.Point(116, 315);
+            this.tb_PassUser.Name = "tb_PassUser";
+            this.tb_PassUser.Size = new System.Drawing.Size(175, 20);
+            this.tb_PassUser.TabIndex = 7;
             // 
             // label4
             // 
@@ -116,12 +116,12 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Contraseña";
             // 
-            // textBox5
+            // tb_PassUser1
             // 
-            this.textBox5.Location = new System.Drawing.Point(116, 365);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(175, 20);
-            this.textBox5.TabIndex = 9;
+            this.tb_PassUser1.Location = new System.Drawing.Point(116, 365);
+            this.tb_PassUser1.Name = "tb_PassUser1";
+            this.tb_PassUser1.Size = new System.Drawing.Size(175, 20);
+            this.tb_PassUser1.TabIndex = 9;
             // 
             // label5
             // 
@@ -155,32 +155,32 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Tipo de Usuario";
             // 
-            // guardar
+            // btn_guardar
             // 
-            this.guardar.Location = new System.Drawing.Point(318, 192);
-            this.guardar.Name = "guardar";
-            this.guardar.Size = new System.Drawing.Size(100, 30);
-            this.guardar.TabIndex = 12;
-            this.guardar.Text = "Guardar";
-            this.guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Location = new System.Drawing.Point(318, 192);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(100, 30);
+            this.btn_guardar.TabIndex = 12;
+            this.btn_guardar.Text = "Guardar";
+            this.btn_guardar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_eliminar
             // 
-            this.button1.Location = new System.Drawing.Point(318, 231);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 30);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Eliminar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Location = new System.Drawing.Point(318, 231);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(100, 30);
+            this.btn_eliminar.TabIndex = 13;
+            this.btn_eliminar.Text = "Eliminar";
+            this.btn_eliminar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_limpiar
             // 
-            this.button2.Location = new System.Drawing.Point(318, 269);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 30);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "Limpiar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_limpiar.Location = new System.Drawing.Point(318, 269);
+            this.btn_limpiar.Name = "btn_limpiar";
+            this.btn_limpiar.Size = new System.Drawing.Size(100, 30);
+            this.btn_limpiar.TabIndex = 14;
+            this.btn_limpiar.Text = "Limpiar";
+            this.btn_limpiar.UseVisualStyleBackColor = true;
             // 
             // checkBox1
             // 
@@ -210,20 +210,20 @@
             this.ClientSize = new System.Drawing.Size(513, 424);
             this.Controls.Add(this.AssUse);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.guardar);
+            this.Controls.Add(this.btn_limpiar);
+            this.Controls.Add(this.btn_eliminar);
+            this.Controls.Add(this.btn_guardar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.tb_PassUser1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.tb_PassUser);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tb_CorUser);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tb_ApeUser);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_NomUser);
             this.Controls.Add(this.label1);
             this.Name = "Usuarios";
             this.Text = "Creación de Usuarios";
@@ -237,20 +237,20 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb_NomUser;
+        private System.Windows.Forms.TextBox tb_ApeUser;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tb_CorUser;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tb_PassUser;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox tb_PassUser1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button guardar;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_guardar;
+        private System.Windows.Forms.Button btn_eliminar;
+        private System.Windows.Forms.Button btn_limpiar;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.PictureBox AssUse;
     }
